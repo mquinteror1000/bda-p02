@@ -1,0 +1,42 @@
+=====================================================================
+      Validación de resultados 📋 (Tomar captura desde aquí)
+=====================================================================
+Fecha ............................. 2026-09-21 01:07:58
+Usuario ........................... martin
+Hostname .......................... h0-ol-mqr.fi.unam
+Asignatura ........................ bda
+Semestre .......................... 2027-1
+Práctica .......................... 02
+Sistema operativo ................. PRETTY_NAME="Oracle Linux Server 9.8"
+Versión ............................ 9.8
+Lenguaje ............................ en_US.UTF-8
+=====================================================================
+
+
+✅ [PASS] 01 - usuario diferente a root: Usuario que ejecuta el script: martin
+✅ [PASS] 02 - sistema operativo (ol): Sistema operativo correcto: ol
+✅ [PASS] 03 - versión del sistema operativo (9): Versión del sistema operativo correcta: 9.8
+✅ [PASS] 04 - variable UNAM_HOME: Variable UNAM_HOME correcta: /unam
+✅ [PASS] 05 - existencia del directorio /unam/bda: Directorio /unam/bda encontrado
+✅ [PASS] 06 - dueño de la carpeta /unam/bda: Dueño de la carpeta /unam/bda correcto: martin
+✅ [PASS] 07 - grupo de la carpeta /unam/bda: Grupo de la carpeta /unam/bda correcto: martin
+✅ [PASS] 08 - permisos de la carpeta /unam/bda: Permisos correctos para /unam/bda: 755
+✅ [PASS] 09 - idioma del contenedor: Lenguaje correcto: en_US.UTF-8
+✅ [PASS] 10 - hostname del contenedor (prefijo h0): Inicio de hostname de contenedor correcto: h0
+✅ [PASS] 11 - hostname del contenedor (s.o.): S.O. correcto en hostname: ol
+✅ [PASS] 12 - dominio del hostname (inicio): Inicio de dominio correcto: fi
+✅ [PASS] 13 - dominio del hostname (fin): Término de dominio correcto: unam
+✅ [PASS] 14 - uso de un contenedor Docker: Uso de Docker correcto
+✅ [PASS] 15 - comando rlwrap: Instalación de rlwrap correcta
+✅ [PASS] 16 - directorio ORACLE_HOME: ORACLE_HOME correcto: /opt/oracle/product/23ai/dbhomeFree
+✅ [PASS] 17 - permisos del binario oracle: Permisos correctos para el archivo oracle: -rwsr-s--x
+✅ [PASS] 18 - tamaño del binario oracle: Tamaño correcto para el archivo oracle: 529090912
+✅ [PASS] 19 - tamaño del binario lsnrctl: Tamaño correcto para el archivo lsnrctl: 177192
+✅ [PASS] 20 - tamaño del binario sqlplus: Tamaño correcto para el archivo sqlplus: 41568
+
+🏆 RESUMEN: 20/20 validaciones correctas
+FVH: 3ef74e70132fb8ce5eacbcb01ff49cf27888ad1eaee3858cd7068dfa4ccc77ec
+================== : Fin de captura : =======================
+
+
+bash: line 415: genera_checksum_reverso: command not found
