@@ -262,8 +262,25 @@ bash: line 415: genera_checksum_reverso: command not found
 
 ## Crear imagen
 
-en el host ejecutar
+en el host ejecutar el script **/unam/bda/practicas/02/debian/container/06-crea-imagen.sh**
+
+pra crear la imagen **ol-mqr:1.0**
 
 ```shellsession
-sds
+martin@pc-bda-mqr:/unam/bda/practicas/02/debian/container$ sh  06-crea-imagen.sh 
+crear imagen del contenedor
+Creando la imagen ol-mqr:1.0 a partir de c0-ol-mqr...
+sha256:e1a51ed4c1c48f089e882e662c1f3e54bb73bbf28d10f07b1d3af012df9c45b3
+Imagen ol-mqr:1.0 creada exitosamente.
+```
+
+listar las imágenes
+
+```shellsession
+martin@pc-bda-mqr:/unam/bda/practicas/02$ docker image list --all
+                                                                                                                                                                                               i Info →   U  In Use
+IMAGE                                            ID             DISK USAGE   CONTENT SIZE   EXTRA
+container-registry.oracle.com/os/oraclelinux:9   5a5876c31b2c        359MB         98.6MB    U   
+hello-world:latest                               5e2309035332       25.9kB         9.49kB    U   
+ol-mqr:1.0                                       e1a51ed4c1c4       7.29GB         2.31GB       
 ```
