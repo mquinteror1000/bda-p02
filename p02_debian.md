@@ -8,7 +8,7 @@ Copiar la carpeta **debian** a **/unam/bda/practicas/02/**
 
 ## 1 Instalación de docker
 
-No hace falta eliminar paquetes, porque debian biene sin docker
+No hace falta eliminar paquetes, porque debian viene sin docker
 
 ### Instalación de docker
 
@@ -56,7 +56,7 @@ Agregar el usuario al **grupo docker** para ejecutar **docker** sin **sudo**
 
 Para un alumno **martin** que cursa **bda** el script debe quedar así
 
-**/unam/bda/practicas/02/s-01-crea-contenedor.sh**
+**/unam/bda/practicas/02/s-01-crea-contenedor-EDIT.sh**
 
 ```bash
 #! /bin/bash
@@ -71,7 +71,7 @@ sudo docker run -i -t \
 ejecutar el script
 
 ```shellsession
-martin@pc-bda-mqr:~/bda/prac_02/debian$ sh s-01-crea-contenedor.sh 
+martin@pc-bda-mqr:~/bda/prac_02/debian$ sh s-01-crea-contenedor-EDIT.sh 
 [sudo] password for martin: 
 Unable to find image 'container-registry.oracle.com/os/oraclelinux:9' locally
 9: Pulling from os/oraclelinux
@@ -262,7 +262,7 @@ bash: line 415: genera_checksum_reverso: command not found
 
 ## Crear imagen
 
-en el host ejecutar el script **/unam/bda/practicas/02/debian/container/06-crea-imagen.sh**
+en el host ejecutar el script **/unam/bda/practicas/02/debian/06-crea-imagen.sh**
 
 pra crear la imagen **ol-mqr:1.0**
 
