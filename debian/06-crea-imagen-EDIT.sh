@@ -1,7 +1,6 @@
 #!/bin/bash
-echo "crear imagen del contenedor"
 
-
+#EDITAR
 CONTAINER_NAME="c0-ol-mqr"
 IMAGE_NAME="ol-mqr:1.0"
 
