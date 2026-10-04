@@ -2,3 +2,5 @@
 debian/container/oracle-database-preinstall-23ai-1.0-2.el9.x86_64.rpm
 debian/container/oracle-database-free-23ai-23.8-1.el9.x86_64.rpm
 *.rpm
+# salidas del validador
+p02-output.txt
