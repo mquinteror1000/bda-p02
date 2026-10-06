@@ -1,6 +1,13 @@
-# Practica 2 de BDA
+# Practica 2 de BDA PODMAN
 
-## Con debian
-[Con debian](p02_debian.md)
+## 
 
-## con fedora
+## 03-software-oracle-db.sh
+
+ejecutar
+
+```bash
+su -l oracle -c "sh $(realpath 03-software-oracle-db.sh)"
+```
+
+[Salida](ejecucion/03-software-oracle-db.sh.md)

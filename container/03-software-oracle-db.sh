@@ -6,7 +6,7 @@ if [ "$(id -u)" -eq 0 ]; then
     exit 1
 fi
 
-DIRECTORIO="/unam/bda/practicas/02/debian/container"
+DIRECTORIO="/unam/bda/practicas/02/container"
 URL1="https://download.oracle.com/otn-pub/otn_software/db-free/oracle-database-free-23ai-23.8-1.el9.x86_64.rpm"
 URL2="https://yum.oracle.com/repo/OracleLinux/OL9/appstream/x86_64/getPackage/oracle-database-preinstall-23ai-1.0-2.el9.x86_64.rpm"
 
