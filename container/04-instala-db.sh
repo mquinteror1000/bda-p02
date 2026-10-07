@@ -22,6 +22,6 @@ sudo ORACLE_DOCKER_INSTALL=true yum install -y oracle-database-free-23ai-23.8-1.
 echo "Instalación finalizada."
 
 echo "limpiando RPMS"
-rm "/unam/bda/practicas/02/debian/container/oracle-database-preinstall-23ai-1.0-2.el9.x86_64.rpm"
-rm "/unam/bda/practicas/02/debian/container/oracle-database-free-23ai-23.8-1.el9.x86_64.rpm"
+rm "/unam/bda/practicas/02/container/oracle-database-preinstall-23ai-1.0-2.el9.x86_64.rpm"
+rm "/unam/bda/practicas/02/container/oracle-database-free-23ai-23.8-1.el9.x86_64.rpm"
 

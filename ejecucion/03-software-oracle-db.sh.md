@@ -1,5 +1,7 @@
 ## 03-software-oracle-db-sh
+
 salida
+
 ```shellsession
 [root@h0-ol-mqr container]# su -l oracle -c "sh $(realpath 03-software-oracle-db.sh)"
 descargando el software de oracle DB en: /unam/bda/practicas/02/container
