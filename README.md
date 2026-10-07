@@ -18,8 +18,8 @@ salir
 en ~/.bashrc
 
 ```shell
-alias dockerOlBase='podman container start c0-ol-mqr && podman exec -u root -it c0-ol-mqr bash -l'
-alias dockerOlBaseT='podman container exec -it -u martin c0-ol-mqr bash -l'
+alias dockerOlBase='docker container start c0-ol-agn && docker container attach c0-ol-agn'
+alias dockerOlBaseT='docker container exec -it c0-ol-agn bash'
 ```
 
 actualizar 
@@ -40,15 +40,7 @@ c0-ol-mqr
 
 ## 01-crea-usuarios-EDIT.sh
 
-editar 
 
-```bash
-#!/bin/bash
-
-HOST_USER=martin
-HOST_USER_UID=1000
-HOST_USER_GID=1000
-```
 
 ejecutar
 
@@ -123,22 +115,17 @@ ejecutar como usuario amdinistrador
 
 ## IMAGEN
 
+En la maquina host
+
 ## 06-crea-imagen-EDIT.sh
-
-Desde la maquina host
-
-Editar
-
-```bash
-#EDITAR
-CONTAINER_NAME='c0-ol-mqr'
-IMAGE_NAME='ol-mqr:1.0'
-```
 
 ejecutar
 
 ```shellsession
 martin@pc-bdx-mqr:/unam/bda/practicas/02/host$ sh 06-crea-imagen-EDIT.sh 
+Creando la imagen ol-agn:1.0 a partir de c0-ol-agn...
+sha256:68d45f26af9687d15d7c780f2caaa5d6a81480ff00444238701e507d0eae3dea
+Imagen ol-agn:1.0 creada exitosamente.
 ```
 
 [salida](ejecucion/06-crea-imagen-EDIT.sh.md)
