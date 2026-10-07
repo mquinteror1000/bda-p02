@@ -1,12 +1,9 @@
 #!/bin/sh
 . /etc/profile.d/99-custom-env.sh
-#EDITAR
-INICIALES='mqr'
+INICIALES='agn'
 
-podman run -i -t \
-    --userns=keep-id \
-    -v "$UNAM_HOME":"$UNAM_HOME":z \
-    -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
+docker run -i -t \
+    -v "$UNAM_HOME":"$UNAM_HOME" \
     --name c0-ol-${INICIALES} \
     --hostname h0-ol-${INICIALES}.fi.unam \
     --shm-size=2gb \

@@ -1,4 +1,4 @@
-# Practica 2 de BDA PODMAN
+# Practica BDA
 
 # HOST
 
@@ -7,7 +7,7 @@
 ejecutar
 
 ```shellsession
-martin@pc-bdx-mqr:/unam/bda/practicas/02/host$ sh 01-crea-contenedor-EDIT.sh 
+martin@pc-bdx-mqr:/unam/bda/practicas/02/host$ sh 01-crea-contenedor-DOCKER.sh 
 bash-5.1$ 
 ```
 

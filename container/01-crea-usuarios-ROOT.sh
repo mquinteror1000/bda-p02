@@ -1,12 +1,11 @@
-#!/bin/bash
-
-HOST_USER=martin
+#!/bin/sh
+HOST_USER=alicia
 HOST_USER_UID=1000
 HOST_USER_GID=1000
 
-echo "Recrear usuario del host en el contenedor..." ## no necesarios cuando contenedor podman rootless
-#groupadd -g $HOST_USER_GID $HOST_USER
-#useradd -u $HOST_USER_UID -g $HOST_USER
+echo "Recrear usuario del host en el contenedor..."
+groupadd -g $HOST_USER_GID $HOST_USER
+useradd -u $HOST_USER_UID -g $HOST_USER $HOST_USER
 mkdir /home/${HOST_USER}
 chown -R ${HOST_USER}:${HOST_USER} /home/${HOST_USER}
 usermod -d /home/${HOST_USER} ${HOST_USER}
